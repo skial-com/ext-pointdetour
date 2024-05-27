@@ -1,0 +1,4 @@
+#!/bin/bash
+rm -rf package PointDetour* .ambuild2
+cd ..
+rm -rf hl2sdk-manifests asm CDetour libudis86

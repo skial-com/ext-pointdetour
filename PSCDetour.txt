@@ -1,0 +1,22 @@
+"Games"
+{
+	"#default"
+	{
+		"Signatures"
+		{
+			"PointServerCommand"
+			{
+				"windows"	"\x56\x8B\x74\x2A\x2A\x83\xC6\x2A\x83\x2A\x2A\x2A\x75"
+				"linux"		"@_ZN19CPointServerCommand12InputCommandER11inputdata_t"
+				"linux64"	"@_ZN19CPointServerCommand12InputCommandER11inputdata_t"
+			}
+			
+			"PointClientCommand"
+			{
+				"windows"	"\x53\x8B\x5C\x2A\x2A\x83\x7B\x2A\x2A\x57\x8D\x2A\x08\x75\x2A\x8B\x2A\x85\xC0"
+				"linux"		"@_ZN19CPointClientCommand12InputCommandER11inputdata_t"
+				"linux64"	"@_ZN19CPointClientCommand12InputCommandER11inputdata_t"
+			}
+		}
+	}
+}
